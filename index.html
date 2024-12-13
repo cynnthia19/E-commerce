@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>komes anliy</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!--link css-->
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+  <section class="hero">
+    <img src="https://cdn.pixabay.com/photo/2024/02/20/08/00/shopping-8584891_640.jpg" alt="" class="img-fluid w-100">
+  </section>
+
+  <!--seksyon 2-->
+  <section class="nav-tab">
+    <div class="container py-5">
+      <div class="row">
+        <!--seksyon 2 kolon 1-->
+        <div class="col-md-8">
+          <ul class="nav nav-tabs custom-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="electronic-tab" data-bs-toggle="tab" href="#electronic" role="tab"
+                aria-controls="electronic" aria-selected="true">
+                <i class="bi bi-tv"></i> Electronic
+              </a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="cosmetic-tab" data-bs-toggle="tab" href="#cosmetic" role="tab"
+                aria-controls="cosmetic" aria-selected="false">
+                <i class="bi bi-brush"></i> Cosmetic
+              </a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="food-tab" data-bs-toggle="tab" href="#food" role="tab" aria-controls="food"
+                aria-selected="false">
+                <i class="bi bi-basket"></i> Food
+              </a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="beverage-tab" data-bs-toggle="tab" href="#beverage" role="tab"
+                aria-controls="beverage" aria-selected="false">
+                <i class="bi bi-cup"></i> Beverage
+              </a>
+            </li>
+          </ul>
+
+          <!-- KONTNI -->
+          <div class="tab-content" id="myTabContent">
+            <!--kontni electronic-->
+            <div class="tab-pane fade show active" id="electronic" role="tabpanel" aria-labelledby="electronic-tab">
+              <div class="row">
+                <!--premye kolon-->
+                <div class="col-md-6 mb-4">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#IDModal" class="text-decoration-none">
+                    <div class="card course-card">
+                      <img class="card-img-top"
+                        src="https://cdn.pixabay.com/photo/2018/02/10/18/16/apple-3144234_1280.jpg" alt="MacBook Pro">
+                      <div class="card-body">
+                        <h5 class="card-title">MacBook Pro</h5>
+                        <p class="card-info">14 pouces &middot; 24h d'autonomie</p>
+                        <p class="card-text">Un ordinateur puissant et élégant conçu pour répondre aux besoins des
+                          professionnels.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <span class="price">$1899</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!--dezyem kolon-->
+                <div class="col-md-6 mb-4">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#IDModal2" class="text-decoration-none">
+                    <div class="card course-card">
+                      <img class="card-img-top"
+                        src="https://media.gqmagazine.fr/photos/66df43406e8c528afe8aa611/16:9/w_1600,c_limit/Apple-iPhone-16-finish-lineup-240909.jpg"
+                        alt="iPhone 16">
+                      <div class="card-body">
+                        <h5 class="card-title">iPhone 16</h5>
+                        <p class="card-info">512 Go &middot; 2Double SIM</p>
+                        <p class="card-text">Un smartphone innovant et performant pour répondre à tous vos besoins.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <span class="price">$969</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <!--twazyem kolon-->
+                <div class="col-md-6 mb-4">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#IDModal3" class="text-decoration-none">
+                    <div class="card course-card">
+                      <img class="card-img-top"
+                        src="https://monparcinformatique.fr/images/6b9071b7-9bb7-4774-ac3b-8d2707a39a47.jpg"
+                        alt="Airpods 4">
+                      <div class="card-body">
+                        <h5 class="card-title">Airpods 4</h5>
+                        <p class="card-info">Son premium &middot; Design élégant</p>
+                        <p class="card-text">Les écouteurs parfaits pour une expérience sonore immersive.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <span class="price">$969</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <!--katriyem kolon-->
+                <div class="col-md-6 mb-4">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#IDModal4" class="text-decoration-none">
+                    <div class="card course-card">
+                      <img class="card-img-top"
+                        src="https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/111832-watch-ultra-2.png"
+                        alt="Apple Watch Ultra 2">
+                      <div class="card-body">
+                        <h5 class="card-title">Apple Watch Ultra 2</h5>
+                        <p class="card-info">Technologie avancée &middot; Étanchéité</p>
+                        <p class="card-text">Une montre connectée robuste pour les aventuriers.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <span class="price">$969</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Navigation -->
+                <nav aria-label="Navigasyon paj la">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Anvan">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Apre">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <!--fin kontni electronic-->
+
+            <!--kontni cosmetik-->
+            <div class="tab-pane fade" id="cosmetic" role="tabpanel" aria-labelledby="cosmetic-tab">
+              <div class="row">
+                <!--premye kolon-->
+                <div class="col-md-6 mb-4">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#CosmeticModal1" class="text-decoration-none">
+                    <div class="card course-card">
+                      <img class="card-img-top"
+                        src="https://cdn.pixabay.com/photo/2017/03/03/16/00/lipsticks-2114263_960_720.jpg"
+                        alt="Lipstick">
+                      <div class="card-body">
+                        <h5 class="card-title">Lipstick</h5>
+                        <p class="card-info">Rouge &middot; Longue tenue</p>
+                        <p class="card-text">Ajoutez une touche de couleur à vos lèvres avec ce rouge à lèvres longue
+                          tenue.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <span class="price">$29</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!--dezyem kolon-->
+                <div class="col-md-6 mb-4">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#CosmeticModal2" class="text-decoration-none">
+                    <div class="card course-card">
+                      <img class="card-img-top"
+                        src="https://cdn.pixabay.com/photo/2019/10/01/10/56/clamy-eyeshadow-palette-4517882_960_720.jpg"
+                        alt="Eyeshadow Palette">
+                      <div class="card-body">
+                        <h5 class="card-title">Eyeshadow Palette</h5>
+                        <p class="card-info">12 nuances &middot; Pigmentation élevée</p>
+                        <p class="card-text">Une palette d'ombres à paupières aux couleurs vibrantes pour des looks
+                          variés.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <span class="price">$49</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <!--twazyem kolon-->
+                <div class="col-md-6 mb-4">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#CosmeticModal3" class="text-decoration-none">
+                    <div class="card course-card">
+                      <img class="card-img-top"
+                        src="https://cdn.pixabay.com/photo/2016/10/16/21/23/makeup-brush-1746322_960_720.jpg"
+                        alt="Makeup Brushes">
+                      <div class="card-body">
+                        <h5 class="card-title">Makeup Brushes</h5>
+                        <p class="card-info">Kit complet &middot; Haute qualité</p>
+                        <p class="card-text">Un ensemble de pinceaux de maquillage essentiels pour un fini impeccable.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <span class="price">$79</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <!--katriyem kolon-->
+                <div class="col-md-6 mb-4">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#CosmeticModal4" class="text-decoration-none">
+                    <div class="card course-card">
+                      <img class="card-img-top"
+                        src="https://media-afr-cdn.oriflame.com/contentImage?u=2205031900&externalMediaId=bada960c-2f65-4dd2-bb3c-9518f48bc019&name=img-3&inputFormat=jpg"
+                        alt="Perfume">
+                      <div class="card-body">
+                        <h5 class="card-title">Perfume</h5>
+                        <p class="card-info">50ml &middot; Parfum floral</p>
+                        <p class="card-text">Un parfum floral et raffiné pour accompagner vos journées.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <span class="price">$99</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+              </div>
+              <!-- Navigation -->
+              <nav aria-label="Navigasyon paj la">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Anvan">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Apre">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!--fin kontni cosmetic-->
+
+            <!--kontni food-->
+            <div class="tab-pane fade" id="food" role="tabpanel" aria-labelledby="food-tab">
+              <div class="row">
+                <!--premye kolon-->
+                <div class="col-md-6 mb-4">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#FoodModal1" class="text-decoration-none">
+                    <div class="card course-card">
+                      <img class="card-img-top"
+                        src="https://cdn.pixabay.com/photo/2022/08/29/17/45/burger-7419428_640.jpg" alt="Hamburger">
+                      <div class="card-body">
+                        <h5 class="card-title">Gourmet Hamburger</h5>
+                        <p class="card-info">100% bœuf &middot; Fait maison</p>
+                        <p class="card-text">Un hamburger gourmet préparé avec des ingrédients frais pour une saveur
+                          inoubliable.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <span class="price">$12</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <!--dezyem kolon-->
+                <div class="col-md-6 mb-4">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#FoodModal2" class="text-decoration-none">
+                    <div class="card course-card">
+                      <img class="card-img-top"
+                        src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg" alt="Pizza">
+                      <div class="card-body">
+                        <h5 class="card-title">Pizza Margherita</h5>
+                        <p class="card-info">Tomate &middot; Mozzarella</p>
+                        <p class="card-text">Savourez une pizza classique avec une base croustillante et des ingrédients
+                          authentiques.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <span class="price">$10</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <!--twazyem kolon-->
+                <div class="col-md-6 mb-4">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#FoodModal3" class="text-decoration-none">
+                    <div class="card course-card">
+                      <img class="card-img-top"
+                        src="https://cdn.pixabay.com/photo/2018/07/18/19/12/pasta-3547078_960_720.jpg" alt="Pâtes">
+                      <div class="card-body">
+                        <h5 class="card-title">Pâtes Spaghetti</h5>
+                        <p class="card-info">Sauce tomate &middot; Basilic</p>
+                        <p class="card-text">Délicieuses pâtes spaghetti servies avec une sauce tomate maison et du
+                          basilic frais.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <span class="price">$9</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <!--katriyem kolon-->
+                <div class="col-md-6 mb-4">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#FoodModal4" class="text-decoration-none">
+                    <div class="card course-card">
+                      <img class="card-img-top"
+                        src="https://cdn.pixabay.com/photo/2023/09/21/12/06/background-8266544_960_720.jpg"
+                        alt="Lasagnes">
+                      <div class="card-body">
+                        <h5 class="card-title">Lasagnes Traditionnelles</h5>
+                        <p class="card-info">Bœuf &middot; Fromage</p>
+                        <p class="card-text">Des lasagnes classiques préparées avec du bœuf haché, une sauce savoureuse
+                          et du fromage fondant.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <span class="price">$14</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Navigation -->
+                <nav aria-label="Navigasyon paj la">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Anvan">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Apre">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <!--fin kontni food-->
+
+            <!--kontni beverage-->
+            <div class="tab-pane fade" id="beverage" role="tabpanel" aria-labelledby="beverage-tab">
+              <div class="row">
+                <!--premye kolon-->
+                <div class="col-md-6 mb-4">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#BeverageModal1" class="text-decoration-none">
+                    <div class="card course-card">
+                      <img class="card-img-top"
+                        src="https://cdn.pixabay.com/photo/2021/11/01/15/53/smoothie-6760874_960_720.jpg"
+                        alt="Smoothie aux Fruits">
+                      <div class="card-body">
+                        <h5 class="card-title">Smoothie aux Fruits</h5>
+                        <p class="card-info">Frais &middot; Santé</p>
+                        <p class="card-text">Un mélange délicieux de fruits pour un boost d'énergie et de saveurs.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <span class="price">$5</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!--dezyem kolon-->
+                <div class="col-md-6 mb-4">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#BeverageModal4" class="text-decoration-none">
+                    <div class="card course-card">
+                      <img class="card-img-top"
+                        src="https://cdn.pixabay.com/photo/2015/07/19/22/37/bottle-852133_640.jpg" alt="Jus Détox">
+                      <div class="card-body">
+                        <h5 class="card-title">Jus Détox</h5>
+                        <p class="card-info">Santé &middot; Naturel</p>
+                        <p class="card-text">Un jus purifiant, idéal pour une cure de bien-être et d'énergie.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <span class="price">$6</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!--twazyem kolon-->
+                <div class="col-md-6 mb-4">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#BeverageModal2" class="text-decoration-none">
+                    <div class="card course-card">
+                      <img class="card-img-top"
+                        src="https://cdn.pixabay.com/photo/2020/12/13/13/29/hot-chocolate-5828239_960_720.jpg"
+                        alt="Chocolat Chaud">
+                      <div class="card-body">
+                        <h5 class="card-title">Chocolat Chaud</h5>
+                        <p class="card-info">Chaud &middot; Réconfortant</p>
+                        <p class="card-text">Une boisson chaude et crémeuse pour les journées fraîches.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <span class="price">$4</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!--katriyem kolon-->
+                <div class="col-md-6 mb-4">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#BeverageModal3" class="text-decoration-none">
+                    <div class="card course-card">
+                      <img class="card-img-top"
+                        src="https://cdn.pixabay.com/photo/2017/05/31/06/21/summer-2359279_960_720.jpg" alt="Limonade">
+                      <div class="card-body">
+                        <h5 class="card-title">Limonade</h5>
+                        <p class="card-info">Frais &middot; Acidulé</p>
+                        <p class="card-text">Une limonade rafraîchissante parfaite pour les journées chaudes.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <span class="price">$3</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Navigation -->
+                <nav aria-label="Navigasyon paj la">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Anvan">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Apre">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+
+              </div>
+            </div>
+            <!--fin konti beverage-->
+          </div>
+
+        </div>
+
+        <!--seksyon 2 kolon 2-->
+        <div class="col-md-4">
+          <div class="card border-0">
+            <div class="card-header bg-primary text-white text-center">
+              <h3>Formulaire d'adhésion</h3>
+            </div>
+            <div class="card-body">
+              <form>
+                <!-- Champ Nom -->
+                <div class="mb-3">
+                  <label for="nom" class="form-label">Nom</label>
+                  <input type="text" class="form-control" id="nom" placeholder="Entrez votre nom" required>
+                </div>
+
+                <!-- Champ Prénom -->
+                <div class="mb-3">
+                  <label for="prenom" class="form-label">Prénom</label>
+                  <input type="text" class="form-control" id="prenom" placeholder="Entrez votre prénom" required>
+                </div>
+
+                <!-- Champ Email -->
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Entrez votre email" required>
+                </div>
+
+                <!-- Champ Catégorie -->
+                <div class="mb-3">
+                  <label for="kategori" class="form-label">Catégorie</label>
+                  <select class="form-select" id="kategori" required>
+                    <option selected disabled>Choisissez une catégorie</option>
+                    <option value="Membre">Electronic</option>
+                    <option value="Bénévole">Cosmetic</option>
+                    <option value="Partenaire">Food</option>
+                    <option value="Partenaire">Beverage</option>
+                  </select>
+                </div>
+
+                <!-- Bouton de soumission -->
+                <div class="d-grid gap-2">
+                  <button type="submit" class="btn btn-primary">Soumettre</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-------------------------------------------------------Modal yo------------------------------------------------------------>
+
+      <!--Modal electronic-->
+      <!-- debut Modal 1-->
+      <div class="modal fade" id="IDModal" tabindex="-1" aria-labelledby="modalTitle1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle1">MacBook Pro 14 pouces</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="alert alert-success d-flex align-items-center" role="alert">
+                <i class="bi bi-exclamation-lg"></i>
+                <div>Ce produit est presque épuisé !</div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">96 Go de mémoire unifiée</li>
+                <li class="list-group-item">8 To de stockage SSD</li>
+                <li class="list-group-item">24 heures d’autonomie</li>
+                <li class="list-group-item">Résolution native : 3024 x 1964 pixels</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+              <button type="button" class="btn btn-primary">Ajouter au panier</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--fin du modal 1-->
+      <!-- debut Modal 2-->
+      <div class="modal fade" id="IDModal2" tabindex="-1" aria-labelledby="modalTitle2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle2">iPhone 16</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="alert alert-success d-flex align-items-center" role="alert">
+                <i class="bi bi-exclamation-lg"></i>
+                <div>Ce produit est presque épuisé !</div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Double SIM (nano‑SIM et eSIM)</li>
+                <li class="list-group-item">Capacité de charge rapide : Jusqu’à 50 % de charge en environ 30 minutes
+                </li>
+                <li class="list-group-item">512 Go, 256 Go, 128 Go</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+              <button type="button" class="btn btn-primary">Ajouter au panier</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--fin du modal 2-->
+
+      <!--modal cosmetic-->
+      <!-- debut Modal 1 -->
+      <div class="modal fade" id="CosmeticModal1" tabindex="-1" aria-labelledby="modalTitle1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle1">Lipstick</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="alert alert-success d-flex align-items-center" role="alert">
+                <i class="bi bi-exclamation-lg"></i>
+                <div>Ce produit est presque épuisé </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Rouge</li>
+                <li class="list-group-item">Longue tenue</li>
+                <li class="list-group-item">Ajoutez une touche de couleur à vos lèvres avec ce rouge à lèvres longue
+                  tenue.</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+              <button type="button" class="btn btn-primary">Ajouter au panier</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fin du Modal 1 -->
+
+      <!-- debut Modal 2 -->
+      <div class="modal fade" id="CosmeticModal2" tabindex="-1" aria-labelledby="modalTitle2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle2">Eyeshadow Palette</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="alert alert-success d-flex align-items-center" role="alert">
+                <i class="bi bi-exclamation-lg"></i>
+                <div>Ce produit est presque épuisé </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">12 nuances</li>
+                <li class="list-group-item">Pigmentation élevée</li>
+                <li class="list-group-item">Une palette d'ombres à paupières aux couleurs vibrantes pour des looks
+                  variés.</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+              <button type="button" class="btn btn-primary">Ajouter au panier</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fin du Modal 2 -->
+
+      <!-- debut Modal 3 -->
+      <div class="modal fade" id="CosmeticModal3" tabindex="-1" aria-labelledby="modalTitle3" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle3">Makeup Brushes</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="alert alert-success d-flex align-items-center" role="alert">
+                <i class="bi bi-exclamation-lg"></i>
+                <div>Ce produit est presque épuisé </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Kit complet</li>
+                <li class="list-group-item">Haute qualité</li>
+                <li class="list-group-item">Un ensemble de pinceaux de maquillage essentiels pour un fini impeccable.
+                </li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+              <button type="button" class="btn btn-primary">Ajouter au panier</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fin du Modal 3 -->
+
+      <!-- debut Modal 4 -->
+      <div class="modal fade" id="CosmeticModal4" tabindex="-1" aria-labelledby="modalTitle4" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle4">Perfume</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="alert alert-success d-flex align-items-center" role="alert">
+                <i class="bi bi-exclamation-lg"></i>
+                <div>Ce produit est presque épuisé </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">50ml</li>
+                <li class="list-group-item">Parfum floral</li>
+                <li class="list-group-item">Un parfum floral et raffiné pour accompagner vos journées.</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+              <button type="button" class="btn btn-primary">Ajouter au panier</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fin du Modal 4 -->
+
+      <!--modal food-->
+      <!-- debut Modal 1 -->
+      <div class="modal fade" id="FoodModal1" tabindex="-1" aria-labelledby="modalTitle1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle1">Gourmet Hamburger</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="alert alert-success d-flex align-items-center" role="alert">
+                <i class="bi bi-exclamation-lg"></i>
+                <div>Ce produit est presque épuisé </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">100% bœuf</li>
+                <li class="list-group-item">Fait maison</li>
+                <li class="list-group-item">Un hamburger gourmet préparé avec des ingrédients frais pour une saveur
+                  inoubliable.</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+              <button type="button" class="btn btn-primary">Ajouter au panier</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fin du Modal 1 -->
+
+      <!-- debut Modal 2 -->
+      <div class="modal fade" id="FoodModal2" tabindex="-1" aria-labelledby="modalTitle2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle2">Pizza Margherita</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="alert alert-success d-flex align-items-center" role="alert">
+                <i class="bi bi-exclamation-lg"></i>
+                <div>Ce produit est presque épuisé </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Tomate</li>
+                <li class="list-group-item">Mozzarella</li>
+                <li class="list-group-item">Savourez une pizza classique avec une base croustillante et des ingrédients
+                  authentiques.</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+              <button type="button" class="btn btn-primary">Ajouter au panier</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fin du Modal 2 -->
+
+      <!-- debut Modal 3 -->
+      <div class="modal fade" id="FoodModal3" tabindex="-1" aria-labelledby="modalTitle3" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle3">Pâtes Spaghetti</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="alert alert-success d-flex align-items-center" role="alert">
+                <i class="bi bi-exclamation-lg"></i>
+                <div>Ce produit est presque épuisé </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Sauce tomate</li>
+                <li class="list-group-item">Basilic</li>
+                <li class="list-group-item">Délicieuses pâtes spaghetti servies avec une sauce tomate maison et du
+                  basilic frais.</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+              <button type="button" class="btn btn-primary">Ajouter au panier</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fin du Modal 3 -->
+
+      <!-- debut Modal 4 -->
+      <div class="modal fade" id="FoodModal4" tabindex="-1" aria-labelledby="modalTitle4" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle4">Lasagnes Traditionnelles</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="alert alert-success d-flex align-items-center" role="alert">
+                <i class="bi bi-exclamation-lg"></i>
+                <div>Ce produit est presque épuisé </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Bœuf</li>
+                <li class="list-group-item">Fromage</li>
+                <li class="list-group-item">Des lasagnes classiques préparées avec du bœuf haché, une sauce savoureuse
+                  et du fromage fondant.</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+              <button type="button" class="btn btn-primary">Ajouter au panier</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fin du Modal 4 -->
+
+      <!--modal beverage-->
+      <!-- début Modal 1 pour Smoothie aux Fruits -->
+      <div class="modal fade" id="BeverageModal1" tabindex="-1" aria-labelledby="modalTitle1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle1">Smoothie aux Fruits</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="alert alert-success d-flex align-items-center" role="alert">
+                <i class="bi bi-exclamation-lg"></i>
+                <div>Ce produit est presque épuisé</div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Fruits frais</li>
+                <li class="list-group-item">Idéal pour un boost d'énergie</li>
+                <li class="list-group-item">Un mélange délicieux de fruits pour un boost d'énergie et de saveurs.</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+              <button type="button" class="btn btn-primary">Ajouter au panier</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fin Modal 1 -->
+
+      <!-- début Modal 2 pour Jus Détox -->
+      <div class="modal fade" id="BeverageModal4" tabindex="-1" aria-labelledby="modalTitle4" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle4">Jus Détox</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="alert alert-success d-flex align-items-center" role="alert">
+                <i class="bi bi-exclamation-lg"></i>
+                <div>Ce produit est presque épuisé</div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Ingrédients naturels</li>
+                <li class="list-group-item">Purifiant</li>
+                <li class="list-group-item">Un jus purifiant, idéal pour une cure de bien-être et d'énergie.</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+              <button type="button" class="btn btn-primary">Ajouter au panier</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fin Modal 2 -->
+
+      <!-- début Modal 3 pour Chocolat Chaud -->
+      <div class="modal fade" id="BeverageModal2" tabindex="-1" aria-labelledby="modalTitle2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle2">Chocolat Chaud</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="alert alert-success d-flex align-items-center" role="alert">
+                <i class="bi bi-exclamation-lg"></i>
+                <div>Ce produit est presque épuisé</div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Chocolat riche</li>
+                <li class="list-group-item">Crème onctueuse</li>
+                <li class="list-group-item">Une boisson chaude et crémeuse pour les journées fraîches.</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+              <button type="button" class="btn btn-primary">Ajouter au panier</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fin Modal 3 -->
+
+      <!-- début Modal 4 pour Limonade -->
+      <div class="modal fade" id="BeverageModal3" tabindex="-1" aria-labelledby="modalTitle3" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle3">Limonade</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="alert alert-success d-flex align-items-center" role="alert">
+                <i class="bi bi-exclamation-lg"></i>
+                <div>Ce produit est presque épuisé</div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Agrumes frais</li>
+                <li class="list-group-item">Parfaite pour les journées chaudes</li>
+                <li class="list-group-item">Une limonade rafraîchissante parfaite pour les journées chaudes.</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+              <button type="button" class="btn btn-primary">Ajouter au panier</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fin Modal 4 -->
+
+    </div>
+
+  </section>
+
+<!-- Pied de page -->
+<footer class="bg-primary text-white py-4">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <h5>Contactez-moi</h5>
+        <ul class="list-unstyled">
+          <li><i class="bi bi-person-circle"></i> Nom : St Clair Cynthia</li>
+          <li><i class="bi bi-envelope"></i> Email : stcynthia37@gmail.com</li>
+          <li><i class="bi bi-phone"></i> Téléphone : +123 456 7890</li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5>Suivez-moi</h5>
+        <div>
+          <a href="#" class="text-white mx-2"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white mx-2"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-white mx-2"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="text-white mx-2"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5>Adresse</h5>
+        <p>Catalpa 19, Delmas 75, Haiti</p>
+      </div>
+    </div>
+    <hr class="border-white">
+    <div class="text-center">
+      <p>&copy; 2024 Cynthia St Clair. Tous droits réservés.</p>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
